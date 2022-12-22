@@ -9,6 +9,8 @@ djangorestframework = "*"
 django-cors-headers = "*"
 pillow = "*"
 django-ckeditor = "*"
+python-decouple = "*"
+django-extensions = "*"
 
 [dev-packages]
 
