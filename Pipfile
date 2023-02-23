@@ -11,8 +11,10 @@ pillow = "*"
 django-ckeditor = "*"
 python-decouple = "*"
 django-extensions = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
+ 

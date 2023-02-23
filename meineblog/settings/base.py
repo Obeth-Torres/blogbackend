@@ -23,7 +23,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,8 +36,8 @@ INSTALLED_APPS = [
     'rest_framework',  # new
     'api',  # new
     "corsheaders",  # new
-    'ckeditor', #new
-    'django_extensions', #new
+    'ckeditor',  # new
+    'django_extensions',  # new
 ]
 
 MIDDLEWARE = [
@@ -83,8 +82,12 @@ WSGI_APPLICATION = 'meineblog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'blogDB1',
+        'USER': 'ObethErsteBlog',
+        'PASSWORD': 'Landschaftsarchitektur',
+        'HOST': 'database-1.c3ojrwhffpqq.eu-west-3.rds.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
