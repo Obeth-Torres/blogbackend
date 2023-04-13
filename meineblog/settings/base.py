@@ -57,6 +57,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://15.188.64.107:8000",
 ]
 
+ALLOWED_HOSTS = ['15.188.64.107']
+
 ROOT_URLCONF = 'meineblog.urls'
 
 TEMPLATES = [
