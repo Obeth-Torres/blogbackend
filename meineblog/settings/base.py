@@ -84,17 +84,13 @@ WSGI_APPLICATION = 'meineblog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blogDB1',
-        'USER': 'ObethErsteBlog',
-        'PASSWORD': 'Landschaftsarchitektur',
-        'HOST': 'database-1.c3ojrwhffpqq.eu-west-3.rds.amazonaws.com',
-        'PORT': '5432'
-    }
+       'ENGINE' : 'django.db.backends.sqlite3', 
+       'NAME' : 'mydatabase',
+    } 
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators

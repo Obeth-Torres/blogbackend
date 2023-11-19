@@ -12,9 +12,9 @@ django-ckeditor = "*"
 python-decouple = "*"
 django-extensions = "*"
 psycopg2 = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
- 
+python_version = "*"
